@@ -6,7 +6,6 @@
 
 html {
   height: 100%;
-  background: linear-gradient(to bottom left,#0F2027, #163B32) no-repeat;
   overflow: hidden;
 }
 
@@ -23,6 +22,9 @@ html,body,#container {
   overflow-x: hidden;
   height: 100vh;
   display: flex;
+  background: linear-gradient(to bottom left,#0F2027, #163B32) no-repeat;
+
+  /* background: blue; */
   /* border: solid green; */
   /* border: solid blue; */
 }

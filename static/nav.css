@@ -1,25 +1,23 @@
 .nav {
   position: fixed;
-  top: 2.8rem;
-  left: 3rem;
+  top: 0;
   /* border: solid var(--primary) 1px; */
-  border-top: none;
-  border-left: none;
-  margin-top: 1rem;
+  box-shadow: 0px 37px 21px -24px rgba(0,0,0,0.1);
   display: flex;
-  justify-content: flex-end;
-  width: 85%;
-/* height: 2vh; */
-/*   background: linear-gradient(green,black); */
+  justify-content: space-between;
+  /* background: blue;; */
+  /* background: linear-gradient(to bottom left,#0F2027, #163B32) no-repeat; */
+  align-items: center;
+  padding: 0 1rem;
+  width: 100%;
+  height: 8.3vh;
 
   .logo {
-    /* border: solid blue; */
     font-size: 6.5rem;
-    position: absolute;
-    height: 5vh;
-    left:-0.8rem;
-    top: -3rem;
-    transform: scale(.8);
+    height: 4.5vh;
+    /* border: solid red; */
+    transform: scale(.7);
+    margin-left: 1rem;
 
 
     .sherwood {
@@ -40,15 +38,12 @@
       font-size: 1.3rem;
       color: #bbb;
       /* margin-bottom: 1rem; */
-      border: solid brown;
+      /* border: solid brown; */
     }
   }
 
   .burger {
-    /* border: solid red; */
-    position: absolute;
-    right: 5px;
-    top: -25px;
+    /* position: absolute; */
     border: none;
     width: 35px;
     height: 25px;
@@ -77,6 +72,7 @@
   .navList {
     display: flex;
     transform: translateX(300px);
+    /* border: solid red; */
   }
 
   .navList.active {

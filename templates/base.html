@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
     <link href="{% static 'index.css' %}" rel="stylesheet">
-    <link rel="stylesheet" href="{% static '_variables.css' %}">
+    <link rel="stylesheet" href="{% static '_variables.css' %}?v={% now 'U' %}">
     {% block extra_css %} {% endblock %}
   </head>
   <body id="container">

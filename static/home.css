@@ -1,9 +1,10 @@
 .homeContainer {
   /* border: solid green 1px; */
+  /* background: linear-gradient(to bottom left,#0F2027, #163B32) no-repeat; */
   width: 100vw;
-  height: 88vh;
+  height: 100vh;
   overflow-y: scroll;
-  margin-top: 6rem;
+  margin-top: 8.3vh;
 
   .images {
     .image {
