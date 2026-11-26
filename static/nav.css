@@ -34,6 +34,14 @@
       top: 5px;
       transform: scale(0.85);
     }
+
+    .lower {
+      /* display: inline-block; */
+      font-size: 1.3rem;
+      color: #bbb;
+      /* margin-bottom: 1rem; */
+      border: solid blue;
+    }
   }
 
   .burger {
@@ -73,11 +81,11 @@
 
   .navList.active {
     transform: translateX(0);
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: space-around;
     /* border: solid green; */
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
     background: blue;
     
