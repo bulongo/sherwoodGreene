@@ -1,0 +1,12 @@
+:root {
+    --background: #ffffff;
+    --primary: #954535;
+    --secondary: #d4af37;
+    --text: #527132;
+    --paragraph-text:#1f1f1f;  
+    --story-background: #e0e0e0;
+    --paper-story: #F5F0E8;
+    --paper-invitation: #FCFAF6;
+    --paper-invitation2: #F4F0E8;
+    --regular-gray: gray;
+}

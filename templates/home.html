@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block extra_css %}
+<head>
+  <link rel="stylesheet" href="{% static 'home.css' %}">
+</head>
+{% endblock %}
+
+{% block content  %}
+  <div class="homeContainer">
+    <h4 class="mission">
+      <em>Redefining Real Estate Excellence.</em>
+    </h4>
+    <div class="images">
+      <div class="image">
+        <img class="landing-img" src="{% static 'home.jpg' %}" alt="">
+        <p>Location: Kabulonga</p>
+        <p>Price: $50,060</p>
+      </div>
+    </div>
+  </div>
+{% endblock %}

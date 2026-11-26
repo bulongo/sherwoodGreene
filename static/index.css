@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  background: linear-gradient(to bottom left,#0F2027, #163B32) no-repeat;
+  overflow: hidden;
+}
+
+body {
+  color: #B7CEC2;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+html,body,#container {
+  overscroll-behavior: none;
+}
+
+#container {
+  overflow-x: hidden;
+  height: 100vh;
+  display: flex;
+  /* border: solid green; */
+  /* border: solid blue; */
+}
+
+@media screen and (width >= 768px){
+  #container {
+    background: green;
+  }
+}

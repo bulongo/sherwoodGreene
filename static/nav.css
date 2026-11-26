@@ -1,0 +1,106 @@
+.nav {
+  position: fixed;
+  top: 2.8rem;
+  left: 3rem;
+  /* border: solid var(--primary) 1px; */
+  border-top: none;
+  border-left: none;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  width: 85%;
+/* height: 2vh; */
+/*   background: linear-gradient(green,black); */
+
+  .logo {
+    /* border: solid blue; */
+    font-size: 6.5rem;
+    position: absolute;
+    height: 5vh;
+    left:-0.8rem;
+    top: -3rem;
+    transform: scale(.8);
+
+
+    .sherwood {
+      position: absolute;
+      top: -25px;
+      left: -15px;
+      /* font-size: 5rem; */
+    }
+
+    .greene {
+      position: absolute;
+      top: 5px;
+      transform: scale(0.85);
+    }
+  }
+
+  .burger {
+    /* border: solid red; */
+    position: absolute;
+    right: 5px;
+    top: -25px;
+    border: none;
+    width: 35px;
+    height: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background: transparent;
+    flex-direction: column;
+    
+    span {
+      display: block;
+      width: 35px;
+      /* border: solid blue; */
+      height: 1px;
+    }
+
+    .top,.bottom {
+      border: solid white 1px;
+    }
+
+    .bottom {
+      width: 25px;
+    }
+  }
+
+  .navList {
+    display: flex;
+    transform: translateX(300px);
+  }
+
+  .navList.active {
+    transform: translateX(0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: solid green; */
+    height: 100vh;
+    width: 100%;
+    background: blue;
+    
+    li {
+      list-style: none;
+      padding: .2rem;
+      z-index: 5;
+      border: solid white 1px;
+      text-align: center;
+      font-size: 1.4rem;
+
+
+      a {
+        color: white;
+        text-decoration: none;
+      }
+
+      &.active {
+        border-left: solid rgba(216, 60, 0, 0.7) 1px;
+        border-right: solid rgba(216, 60, 0, 0.7) 1px;
+        background: rgba(216, 60, 0, 0.5);
+        /* background: orangered; */
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{% load static %}
+<head>
+  <link rel="stylesheet" href="{% static 'nav.css' %}"> 
+</head>
+
+<nav class="nav">
+  <button type="button" class="burger">
+    <span class="top"></span>
+    <span class="bottom"></span>
+  </button>
+  <h1 class="logo">
+    <span class='sherwood'>S</span>
+    <span class="greene">G</span>
+  </h1>
+  <ul class="navList active">
+    <li class="active">
+      <a href="/">Home</a>
+    </li>
+    <!-- home should have what we do, so the services tab is unneccesary -->
+    <li>
+      <a href="about/">About</a>
+    </li>
+
+    <li>
+      <a href="property-search">Search</a>
+    </li>
+
+    <li>
+      <a href="members">Members</a>
+    </li>
+    
+    <li>
+      <a href="contact">Contact us</a>
+    </li>
+    <!-- currency converter can just be in a corner somewhere -->
+  </ul>
+</nav>
