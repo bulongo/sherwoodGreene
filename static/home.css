@@ -2,7 +2,8 @@
   /* border: solid green 1px; */
   /* background: linear-gradient(to bottom left,#0F2027, #163B32) no-repeat; */
   width: 100vw;
-  height: 100vh;
+  height: 100dvh;
+  /* border: solid green 5px; */
   overflow-y: scroll;
   margin-top: 8.3vh;
 
